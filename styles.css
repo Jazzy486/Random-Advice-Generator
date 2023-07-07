@@ -80,6 +80,7 @@ body{
     font-weight: 500;
     line-height: 1.5;
     left: 38%;
+    right: 38%;
     bottom: 0;
     margin-bottom: 1%;
 }
@@ -91,6 +92,7 @@ body{
 @media screen and (max-width: 768px){
     .advice-div{
         width: 80%;
+        margin-top: 40%;
     }
     .advice-div p{
         font-size: 1rem;
@@ -100,6 +102,8 @@ body{
     }
     .attribution{
         font-size: 0.7rem;
+        left: 20%;
+        right: 21%;
     }
 }
 
