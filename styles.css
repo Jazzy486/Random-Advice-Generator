@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Manrope';
+    
+    font-weight: 100 300 500 700 900;
+    src: url('assets/fonts/Manrope/Manrope-VariableFont_wght.ttf'),
+         format('truetype');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.advice-div{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    margin-bottom: 13%;
+    
+}
+
+.advice-div p{
+    padding: 30px;
+    color: hsl(150, 100%, 66%);
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+#advice-text{
+    width: 85%;
+    padding-bottom: 30px;
+    color: hsl(193, 38%, 86%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.divider{
+    
+    width: 90%;
+    margin-bottom: 4%;
+}
+
+
+#advice-button{
+ padding: 15px;
+ border-radius: 50%;
+ border: none;
+ margin-bottom: -5%;
+ background-color: hsl(150, 100%, 66%);
+}
+
+#advice-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px hsl(150, 100%, 66%);
+}
+
+#advice-button img{
+    width: 90%;
+}
+
+.attribution{
+    position: fixed;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    left: 38%;
+    bottom: 0;
+    margin-bottom: 1%;
+}
+
+.attribution p{
+    word-spacing: 0.2rem;
+}
+
+@media screen and (max-width: 768px){
+    .advice-div{
+        width: 80%;
+    }
+    .advice-div p{
+        font-size: 1rem;
+    }
+    #advice-text{
+        font-size: 1.5rem;
+    }
+    .attribution{
+        font-size: 0.7rem;
+    }
+}
+
+
